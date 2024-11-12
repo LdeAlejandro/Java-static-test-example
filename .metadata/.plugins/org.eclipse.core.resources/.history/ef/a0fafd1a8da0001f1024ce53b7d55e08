@@ -1,0 +1,20 @@
+package com.mastersoft.clinical.service;
+
+import com.mastersoft.clinical.model.Exame;
+
+public class ExameService {
+	
+	public static void main (String[] args) {
+		salvarExame();
+	}
+	
+	
+	
+	static void salvarExame() {
+		Exame.test();
+		String classVariableValue = Exame.variable;
+		
+		System.out.println(classVariableValue);
+	}
+
+}
